@@ -1,0 +1,48 @@
+.payments-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.payments-table-container {
+  overflow-x: auto;
+}
+
+.payments-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.payments-table th {
+  padding: 1rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid var(--border-color);
+  background: var(--bg-light);
+}
+
+.payments-table td {
+  padding: 1.1rem 1rem;
+  font-size: 0.925rem;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-main);
+  vertical-align: middle;
+}
+
+.payments-table tr:hover {
+  background: #FAF9FE;
+}
+
+.payee-tag {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.amount-due-highlight {
+  font-weight: 800;
+  color: var(--text-main);
+}

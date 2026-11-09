@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+  <!-- Icon -->
+  <rect x="5" y="5" width="40" height="40" rx="10" fill="#7654D6"/>
+  <path d="M25 14L15 23V35C15 35.6 15.4 36 16 36H34C34.6 36 35 35.6 35 35V23L25 14Z" fill="#EDE7FF"/>
+  <path d="M22 36V26H28V36H22Z" fill="#7654D6"/>
+  <circle cx="25" cy="21" r="2.5" fill="#7654D6"/>
+
+  <!-- Brand Text -->
+  <text x="56" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#29263A">
+    Roomie<tspan fill="#7654D6">Hub</tspan>
+  </text>
+</svg>
